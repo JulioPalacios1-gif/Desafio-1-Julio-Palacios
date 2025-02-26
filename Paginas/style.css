@@ -1,3 +1,5 @@
+
+/* Inicio header */
 .h{
     justify-content: space-around;
     background-color: #F8F3D9 ;
@@ -18,17 +20,22 @@
     height: 250px;
     align-content: center;
 }
+/* Fin header */
 
+/* Pagina tours */
 .rectangulo{
     width: 100%;
     height: 200px;
     background-color: #F8F3D9;
     display: flex;
+    }  
+    
+    .rectangulo:hover {
+        box-shadow: 20px 20px 50px #cfc8a3;
 }
 
 .rectangulo img{
     border-color: #504B38;
-    border-radius: 10%;
 }
 
 .text { 
@@ -36,11 +43,31 @@
     font-size: larger;
 }
 
+.box {
+    margin-top: 155px; 
+    width: 20px;  
+}
+/* Fin pagina tours */
+/* Pagina inicio */
+.rectangulo2{
+    width: 100%;
+    height: 100%px;
+    background-color: #F8F3D9;
+    display: flex;
+    }  
 
 
+    .text2 { 
+        font-family: sans-serif;
+        color: #69654e;
+        margin-left:50px;
+        font-size: larger;
+    }
 
-
-
+    .text3 {
+        
+        text-align: justify;
+    }
 
 body{
     background-color: #504B38;
